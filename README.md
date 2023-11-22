@@ -121,6 +121,11 @@ CREATE TABLE animes (
 <br>
 <br>
 
+![Screenshot 2023-11-22 223712](https://github.com/oglis22/Anifyy/assets/119761510/7674c0e5-09d6-4a2d-a161-25a8bf85785d)
+
+
+
 ![ab67616d0000b2732f9084bc84f00ca01266460d](https://github.com/oglis22/Anifyy/assets/119761510/718eb526-58f6-450e-8d97-a356ed3dc9d2)
+
 
 
