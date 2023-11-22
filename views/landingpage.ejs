@@ -17,30 +17,37 @@
 </head>
 <body>
     
-    <div class="navbar">
-        <img class="Logoicon" src="/images/logo.png ">
-
-        <div class="nav-links">
-            <a href="/"><i class="fas fa-home"></i>Home</a>
-            <a href="/animes">Animes</a>
-            <a href="">Entwickler</a>
-        </div>
-
-        <div class="user-actions">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="Logo" height="40" style="border-radius: 60px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/animes">Animes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/admin">AdminPanel</a>
+              </li>
+            </ul>
+          </div>
+          <div class="ml-auto">
             <% if (isLoggedIn) { %>
-                <button style="background-color: #5AA141;" class="login-button" onclick="window.location.href='/profile'"><%= username %></button>
+                <button style="background-color: #5AA141;" class="btn btn-light" onclick="window.location.href = '/profile'"><%= username %></button>
             <% } else { %>
-                <button class="login-button" onclick="window.location.href='/login'">Login <span class="span-loginpfeil">&#10140;</span></button>
+                <button style="background-color: #5AA141;" class="btn btn-light" onclick="window.location.href = '/login'">Login</button>
             <% } %>
-            <div class="language-dropdown">
-                <span>Sprache</span>
-                <div class="dropdown-content">
-                    <a href="#">English</a>
-                    <a href="#">Deutsch</a>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+      </nav>
+      
 
     <section class="homesec">
         <div class="home-container">
@@ -51,10 +58,10 @@
                 </h1>
     
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    Welcome to Anifyy! Here you can not only discover and rate exciting anime, but also immerse yourself in lively discussions with other fans. Immerse yourself in the fascinating world of animation, share your passion and find out important information about your favorite works.
                 </p>
 
-                <!--<i class="fa fa-phone-square" aria-hidden="true"></i>---><button class="button-discord"><a href="https://discord.gg/zHHT69khuD">JOINE AUF UNSEREN DISCORD</a></button>
+                <!--<i class="fa fa-phone-square" aria-hidden="true"></i>---><button class="button-discord"><a href="">JOINE AUF UNSEREN DISCORD</a></button>
             </div>
         </div>
     </section>
