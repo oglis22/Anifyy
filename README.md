@@ -1,6 +1,8 @@
 
 # Anifyy
 
+The project is currently stopped because we have lost motivation. When we are ready to continue programming the project again, new updates will come. Basically, this is the first stable version.
+
 Welcome to Anifyy! Here you can not only discover and rate exciting 
 anime, but also immerse yourself in lively discussions with other fans. 
 Immerse yourself in the fascinating world of animation, share your 
