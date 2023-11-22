@@ -16,6 +16,7 @@ passion and find out important information about your favorite works.
 ## Authors
 
 - [@Oglis22](https://oglis22.github.io)
+- [@lizhxro](https://github.com/lizhxro)
 
 
 ## Contributing
