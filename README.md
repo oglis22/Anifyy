@@ -87,7 +87,6 @@ Set Mysql Connection mysql.json
 <br>
 <br>
 
-![ab67616d0000b2732f9084bc84f00ca01266460d](https://github.com/Anifyy-com/Anifyy/assets/119761510/f0f51d29-260a-48f6-96ce-25da1d7ebf6c)
-
+![ab67616d0000b2732f9084bc84f00ca01266460d](https://github.com/oglis22/Anifyy/assets/119761510/718eb526-58f6-450e-8d97-a356ed3dc9d2)
 
 
