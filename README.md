@@ -96,6 +96,8 @@ CREATE TABLE animes (
   }
 ```
 
+Change the role of your admin account in the database from user to admin to gain access to the admin panel
+
 
 ## Tech Stack
 
