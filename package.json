@@ -1,7 +1,7 @@
 {
-  "name": "anidyy",
+  "name": "anifyy",
   "version": "1.0.0",
-  "description": "anidyy",
+  "description": "anifyy",
   "main": "index.js",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -20,7 +20,7 @@
   "keywords": [
     "node"
   ],
-  "author": "Quoboo, lizhxro, oglis22",
+  "author": "lizhxro, oglis22",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/anifyy-com/Anifyy/issues"
