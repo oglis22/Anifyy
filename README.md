@@ -123,11 +123,8 @@ Change the role of your admin account in the database from user to admin to gain
 <br>
 <br>
 
-![Screenshot 2023-11-22 223712](https://github.com/oglis22/Anifyy/assets/119761510/7674c0e5-09d6-4a2d-a161-25a8bf85785d)
+![Screenshot 2023-11-22 224340](https://github.com/oglis22/Anifyy/assets/119761510/44ea4cd2-f1c1-4494-8d3a-d2ac49c01b11)
 
 
-
-![ab67616d0000b2732f9084bc84f00ca01266460d](https://github.com/oglis22/Anifyy/assets/119761510/718eb526-58f6-450e-8d97-a356ed3dc9d2)
-
-
+![ab67616d0000b2732f9084bc84f00ca01266460d](https://github.com/oglis22/Anifyy/assets/119761510/09e9ae21-f485-4ea7-8a38-31b798f62d9b)
 
