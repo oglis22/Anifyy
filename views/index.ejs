@@ -17,36 +17,10 @@
 </head>
 <body>
     
-    <div class="navbar">
-        <img class="Logoicon" src="/images/logo.png ">
-
-        <div class="nav-links">
-            <a href="#"><i class="fas fa-home"></i>Home</a>
-            <a href="#">Animes</a>
-            <a href="#">Entwickler</a>
-        </div>
-
-        <div class="user-actions">
-            <% if (isLoggedIn) { %>
-                <button style="background-color: #5a2e98;" class="login-button" onclick="window.location.href='/profile'"><%= username %></button>
-            <% } else { %>
-                <button class="login-button" onclick="window.location.href='/login'">Login <span class="span-loginpfeil">&#10140;</span></button>
-            <% } %>
-            <div class="language-dropdown">
-                <span>Sprache</span>
-                <div class="dropdown-content">
-                    <a href="#">English</a>
-                    <a href="#">Deutsch</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <% for (let i = 0; i < animes.length; i++) { %>
-        <form action="/animes/<%= animes[i].id %>" method="GET">
     <div class="container">
         <div class="row">
+    <% for (let i = 0; i < animes.length; i++) { %>
+        <form action="/animes/<%= animes[i].id %>" method="GET">
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <img src="<%= animes[i].image %>" class="card-img-top" alt="Anime Image">
@@ -58,10 +32,12 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </form>
 <% } %>
+</div>
+</div>
+
+
 
 
    
