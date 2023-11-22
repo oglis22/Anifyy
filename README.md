@@ -1,6 +1,8 @@
 
 # Anifyy
 
+The project is currently stopped because we have lost motivation. When we are ready to continue programming the project again, new updates will come. Basically, this is the first stable version.
+
 Welcome to Anifyy! Here you can not only discover and rate exciting 
 anime, but also immerse yourself in lively discussions with other fans. 
 Immerse yourself in the fascinating world of animation, share your 
@@ -60,6 +62,37 @@ Set Mysql Connection mysql.json
     "user": "root",
     "password": "",
     "database": ""
+  }
+```
+
+sql commands
+
+
+```json
+{
+CREATE TABLE users (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  passwordHash VARCHAR(255) NOT NULL,
+  role VARCHAR(255) DEFAULT 'user'
+);
+CREATE TABLE ratings (
+  rating_id INT AUTO_INCREMENT PRIMARY KEY,
+  anime_id INT NOT NULL,
+  user_id INT NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  points INT NOT NULL,
+  comment TEXT
+);
+CREATE TABLE animes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  keywords VARCHAR(255) NOT NULL,
+  image VARCHAR(2550) NOT NULL,
+  description VARCHAR(255) NOT NULL
+);
+
   }
 ```
 
