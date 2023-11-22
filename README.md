@@ -65,6 +65,37 @@ Set Mysql Connection mysql.json
   }
 ```
 
+sql commands
+
+
+```json
+{
+CREATE TABLE users (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  passwordHash VARCHAR(255) NOT NULL,
+  role VARCHAR(255) DEFAULT 'user'
+);
+CREATE TABLE ratings (
+  rating_id INT AUTO_INCREMENT PRIMARY KEY,
+  anime_id INT NOT NULL,
+  user_id INT NOT NULL,
+  username VARCHAR(255) NOT NULL,
+  points INT NOT NULL,
+  comment TEXT
+);
+CREATE TABLE animes (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  keywords VARCHAR(255) NOT NULL,
+  image VARCHAR(2550) NOT NULL,
+  description VARCHAR(255) NOT NULL
+);
+
+  }
+```
+
 
 ## Tech Stack
 
